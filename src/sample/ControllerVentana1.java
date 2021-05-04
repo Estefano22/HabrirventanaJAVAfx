@@ -7,6 +7,8 @@ import javafx.stage.Stage;
 
 public class ControllerVentana1 {
 
+    int i = 0;
+
     @FXML
     private Button CerrarVentana;
     @FXML
@@ -33,9 +35,6 @@ public class ControllerVentana1 {
     }
 
 
-    public void ContadorLabel(){
 
-
-    }
 
 }

@@ -7,6 +7,6 @@
    <children>
       <Button fx:id="CerrarApp" layoutX="177.0" layoutY="281.0" mnemonicParsing="false" onMouseClicked="#onButtonCerrarAppClicked" text="CerrarAPP" />
       <Button fx:id="CerrarVentana" layoutX="300.0" layoutY="281.0" mnemonicParsing="false" onMouseClicked="#onButtonCerrarVentanaClicked" text="CerrarVentana" />
-      <Label fx:id="Contador" layoutX="254.0" layoutY="192.0" text="Contador" />
+      <Label fx:id="Contador" layoutX="254.0" layoutY="192.0" text="0" />
    </children>
 </AnchorPane>

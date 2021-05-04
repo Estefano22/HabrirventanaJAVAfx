@@ -10,6 +10,9 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
 public class Controller {
+    ControllerVentana1 Controller1 = null;
+
+    int i = 0;
 
     @FXML
     public void Buttonventana1() {
@@ -28,6 +31,14 @@ public class Controller {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        try{
+            i++;
+            Controller1.Contador.setText(""+i);
+        } catch (Exception e){}
+
+
+
     }
 
 
