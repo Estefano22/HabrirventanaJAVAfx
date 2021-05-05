@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("ventana_sumar.fxml"));
         primaryStage.setTitle("Ejemplo pasar de ventana");
         primaryStage.setScene(new Scene(root, 650, 500));
         primaryStage.show();

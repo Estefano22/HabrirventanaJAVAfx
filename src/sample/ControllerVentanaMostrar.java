@@ -5,9 +5,8 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
 
-public class ControllerVentana1 {
+public class ControllerVentanaMostrar {
 
-    int i = 0;
 
     @FXML
     private Button CerrarVentana;
@@ -15,7 +14,9 @@ public class ControllerVentana1 {
     private Button CerrarApp;
 
     @FXML
-    Label Contador;
+    Label labelContador;
+
+    int contador = 0;
 
     @FXML
     private void onButtonCerrarVentanaClicked() {
@@ -29,12 +30,19 @@ public class ControllerVentana1 {
     }
 
 
-    public void ponerNumero(int numero) {
-        System.out.println(numero);
+    public void sumar1() {
+
+        contador ++;
+        labelContador.setText(String.valueOf(contador));
 
     }
 
+    public void restar1() {
 
+        contador --;
+        labelContador.setText(String.valueOf(contador));
+
+    }
 
 
 }
