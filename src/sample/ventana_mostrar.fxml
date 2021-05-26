@@ -8,5 +8,6 @@
       <Button fx:id="CerrarApp" layoutX="177.0" layoutY="281.0" mnemonicParsing="false" onMouseClicked="#onButtonCerrarAppClicked" text="CerrarAPP" />
       <Button fx:id="CerrarVentana" layoutX="300.0" layoutY="281.0" mnemonicParsing="false" onMouseClicked="#onButtonCerrarVentanaClicked" text="CerrarVentana" />
       <Label fx:id="labelContador" layoutX="254.0" layoutY="192.0" text="0" />
+      <CheckBox fx:id="checkboxForzarParada" layoutX="225.0" layoutY="88.0" mnemonicParsing="false" onMouseClicked="#onButtonForzarParada" text="Forzar Parada" />
    </children>
 </AnchorPane>
